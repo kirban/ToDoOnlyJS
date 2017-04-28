@@ -1,0 +1,68 @@
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/nautilus */
+@import "http://fonts.fontstorage.com/import/nautilus.css";
+/*
+	Nautilus Pompilius, 400
+*/
+/* Please do not use this import in production. You could download this font from here https://fontstorage.com/font/cleanvertising */
+@import "http://fonts.fontstorage.com/import/cleanvertising.css";
+/*
+	Cleanvertising, 300, 900
+*/
+*{
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    background-color: #eeeeee;
+    font-family: Cleanvertising;
+}
+.workspace{         /*белая рабочая область*/
+    height: 550px;  /*todo: (высота белой зоны) меняется в зависимости от числа элементов. 90px один пункт меню*/
+    width: 600px; /* ширина = const*/
+    margin: 3% auto;
+    background-color: white;
+
+}
+.workspace h1{
+    padding-left: 250px;
+    padding-top: 20px;
+    font-family: 'Nautilus Pompilius';
+}
+.workspace input[name='inputToDo']{
+    height: 60px;
+    width: 500px;
+    margin-top: 50px;
+    margin-left: 40px;
+    padding-left: 25px;
+    border-radius: 10px;
+    border: solid thin;
+}
+.workspace input[name='checkAll']{
+    margin-top: 10px;
+    margin-left: 320px;
+    margin-bottom: 20px;
+}
+.workspace ul>li{
+    height: 50px;
+    list-style-type: none;
+    margin-top: 25px;
+    margin-left: 90px;
+    font-style: normal;
+}
+.footer{
+    background-color: #ebe400;
+    height: 35px;
+    border-bottom: dashed;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.footer button{
+    height: 30px;
+    width: 70px;
+    margin-top: 3px;
+    margin-left: 500px;
+    background-color: rgba(58,58,58,0.76);
+    color: ghostwhite;
+    border-radius: 5px;
+}
