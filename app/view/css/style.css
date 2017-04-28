@@ -18,7 +18,7 @@ body{
     font-family: Cleanvertising;
 }
 .workspace{         /*белая рабочая область*/
-    height: 550px;  /*todo: (высота белой зоны) меняется в зависимости от числа элементов. 90px один пункт меню*/
+    height: 296px;  /*todo: (высота белой зоны) меняется в зависимости от числа элементов. 90px один пункт меню*/
     width: 600px; /* ширина = const*/
     margin: 3% auto;
     background-color: white;
